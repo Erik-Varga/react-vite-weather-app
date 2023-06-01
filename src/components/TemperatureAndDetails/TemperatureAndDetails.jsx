@@ -32,30 +32,29 @@ function TemperatureAndDetails() {
             </div>
         </div>
       </div>
-        <div className='flex justify-center items-center p-1 space-x-1'>
-            <div className='flex justify-around items-center'>
+        <div className='flex justify-center items-center py-1 text-sm'>
+            <div className='flex justify-center items-center'>
                 <BsFillSunFill size={18} className='mr-1'/>
                 Rise:
-                <span className='font-medium ml-1'>05:30 AM</span>
-                &nbsp;
+                <span className='ml-1'>05:30 AM</span>
+                &nbsp; | &nbsp;
             </div>
-            <div className='flex justify-around items-center'>
+            <div className='flex justify-center items-center'>
                 <TbSunset2 size={18} className='mr-1'/>
                 Set:
-                <span className='font-medium ml-1'>09:10 PM</span>
+                <span className='ml-1'>09:10 PM</span>
+                &nbsp; | &nbsp;
             </div>
-        </div>
-        <div className='flex justify-center items-center p-1 space-x-1'>
-            <div className='flex justify-around items-center'>
-                <AiOutlineArrowUp size={18} className='mr-1'/>
+            <div className='flex justify-center items-center'>
+                <AiOutlineArrowUp size={18} />
                 High:
-                <span className='font-medium ml-1'>21°</span>
-                &nbsp;
+                <span className='ml-1'>21°</span>
+                &nbsp; | &nbsp;
             </div>
-            <div className='flex justify-around items-center'>
-                <AiOutlineArrowDown size={18} className='mr-1'/>
+            <div className='flex justify-center items-center'>
+                <AiOutlineArrowDown size={18} />
                 Low:
-                <span className='font-medium ml-1'>17°</span>
+                <span className='ml-1'>17°</span>
             </div>
         </div>
     </div>
