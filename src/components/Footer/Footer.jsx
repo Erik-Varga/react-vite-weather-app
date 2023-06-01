@@ -4,7 +4,7 @@ import { BsCodeSlash } from "react-icons/bs";
 
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer mt-5'>
         <p>
             <a className='flex items-center justify-center' href="https://github.com/Erik-Varga" target="_blank" rel="noreferrer">
                 &copy; {(new Date().getFullYear())} Erik Varga | Web Developer
