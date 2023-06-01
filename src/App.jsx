@@ -2,6 +2,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import TopButtons from './components/TopButtons/TopButtons'
 import { TiWeatherPartlySunny } from 'react-icons/ti';
+import Inputs from './components/Inputs/Inputs';
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
         <h2 className='flex justify-center items-center text-2xl font-bold'>Weather App&nbsp;<TiWeatherPartlySunny /></h2>
         <Header />
         <TopButtons />
-        
+        <Inputs />
         <Footer />
       </div>
     </div>
